@@ -1,0 +1,58 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  width: 50%;
+  padding: 20px;
+}
+.description {
+  color: #0f172a;
+  text-align: center;
+}
+.emoji-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.emoji {
+  height: 100px;
+  width: 100px;
+}
+.name {
+  color: #1e293b;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.love-emoji {
+  height: 80px;
+  width: 80px;
+}
+.para {
+  color: #1e293b;
+  font-size: 18px;
+  text-align: center;
+}
